@@ -2,17 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8115d9f1-6499-458a-bb7b-a77cec086b88</ProjectGuid>
+    <ProjectGuid>9afaec28-b90b-411d-b826-502442a98b54</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Main.py</StartupFile>
+    <StartupFile>Client.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>MeMakePython</Name>
-    <RootNamespace>MeMakePython</RootNamespace>
-    <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <Name>Client</Name>
+    <RootNamespace>Client</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,19 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Client.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Main.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Server.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="TimeCalendar.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <Compile Include="Client.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MeMakePython", "MeMakePython\MeMakePython.pyproj", "{8115D9F1-6499-458A-BB7B-A77CEC086B88}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Client", "Client\Client.pyproj", "{9AFAEC28-B90B-411D-B826-502442A98B54}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Server", "Server\Server.pyproj", "{94680293-29C9-4E37-946D-B44CFEEDF7CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8115D9F1-6499-458A-BB7B-A77CEC086B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8115D9F1-6499-458A-BB7B-A77CEC086B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFAEC28-B90B-411D-B826-502442A98B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFAEC28-B90B-411D-B826-502442A98B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94680293-29C9-4E37-946D-B44CFEEDF7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94680293-29C9-4E37-946D-B44CFEEDF7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
