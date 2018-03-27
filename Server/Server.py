@@ -3,7 +3,7 @@ import time
 
 serversocket = socket.socket( socket.AF_INET, socket.SOCK_STREAM )
 
-host = socket.gethostname()
+host = ''
 print ( "Hostname: ", host)
 
 port = 9999
@@ -21,7 +21,7 @@ while True:
     clientsocket.send( currentTime.encode("ascii") )
     tm = clientsocket.recv(1024)
     message = tm.decode("ascii")
+    print ( "Client Response: ", message )
 
-    if (message == "Close Socket"):
-        print ( "Closing socket..." )
+    if (message == "Close"):
         clientsocket.close()

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Client", "Client\Client.pyproj", "{9AFAEC28-B90B-411D-B826-502442A98B54}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MessageClient", "Client\MessageClient.pyproj", "{9AFAEC28-B90B-411D-B826-502442A98B54}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Server", "Server\Server.pyproj", "{94680293-29C9-4E37-946D-B44CFEEDF7CF}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MessageServer", "Server\MessageServer.pyproj", "{94680293-29C9-4E37-946D-B44CFEEDF7CF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransferServer", "TransferServer\TransferServer.pyproj", "{A2120C01-BB0B-49FF-ACA8-32EC87361FBE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TransferClient", "TransferClient\TransferClient.pyproj", "{9CF8E604-D58A-4591-B222-2EADBA3E5973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,10 @@ Global
 		{9AFAEC28-B90B-411D-B826-502442A98B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94680293-29C9-4E37-946D-B44CFEEDF7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94680293-29C9-4E37-946D-B44CFEEDF7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2120C01-BB0B-49FF-ACA8-32EC87361FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2120C01-BB0B-49FF-ACA8-32EC87361FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF8E604-D58A-4591-B222-2EADBA3E5973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF8E604-D58A-4591-B222-2EADBA3E5973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
